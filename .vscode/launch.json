@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch JavaFX App",
+      "request": "launch",
+      "mainClass": "com.chronoledger.Main", // <-- change this to your main class with full package name
+      "vmArgs": "--module-path D:/openjfx-24.0.2_windows-x64_bin-sdk/lib --add-modules javafx.controls,javafx.fxml"
+    }
+  ]
+}
